@@ -10,6 +10,831 @@
             },
             "isCompleted": true,
             "taskLevel": "easy"
+        },
+        {
+            "name": "1768. Merge Strings Alternately",
+            "taskUrl": "https://leetcode.com/problems/merge-strings-alternately/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Array / String"
+            },
+            "isCompleted": false,
+            "taskLevel": "easy"
+        },
+        {
+            "name": "1071. Greatest Common Divisor of Strings",
+            "taskUrl": "https://leetcode.com/problems/greatest-common-divisor-of-strings/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Array / String"
+            },
+            "isCompleted": false,
+            "taskLevel": "easy"
+        },
+        {
+            "name": "1431. Kids With the Greatest Number of Candies",
+            "taskUrl": "https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Array / String"
+            },
+            "isCompleted": false,
+            "taskLevel": "easy"
+        },
+        {
+            "name": "605. Can Place Flowers",
+            "taskUrl": "https://leetcode.com/problems/can-place-flowers/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Array / String"
+            },
+            "isCompleted": false,
+            "taskLevel": "easy"
+        },
+        {
+            "name": "345. Reverse Vowels of a String",
+            "taskUrl": "https://leetcode.com/problems/reverse-vowels-of-a-string/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Array / String"
+            },
+            "isCompleted": false,
+            "taskLevel": "easy"
+        },
+        {
+            "name": "151. Reverse Words in a String",
+            "taskUrl": "https://leetcode.com/problems/reverse-words-in-a-string/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Array / String"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "238. Product of Array Except Self",
+            "taskUrl": "https://leetcode.com/problems/product-of-array-except-self/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Array / String"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "334. Increasing Triplet Subsequence",
+            "taskUrl": "https://leetcode.com/problems/increasing-triplet-subsequence/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Array / String"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "443. String Compression",
+            "taskUrl": "https://leetcode.com/problems/string-compression/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Array / String"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "283. Move Zeroes",
+            "taskUrl": "https://leetcode.com/problems/move-zeroes/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Two Pointers"
+            },
+            "isCompleted": false,
+            "taskLevel": "easy"
+        },
+        {
+            "name": "392. Is Subsequence",
+            "taskUrl": "https://leetcode.com/problems/is-subsequence/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Two Pointers"
+            },
+            "isCompleted": false,
+            "taskLevel": "easy"
+        },
+        {
+            "name": "11. Container With Most Water",
+            "taskUrl": "https://leetcode.com/problems/container-with-most-water/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Two Pointers"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "1679. Max Number of K-Sum Pairs",
+            "taskUrl": "https://leetcode.com/problems/max-number-of-k-sum-pairs/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Two Pointers"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "643. Maximum Average Subarray I",
+            "taskUrl": "https://leetcode.com/problems/maximum-average-subarray-i?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Sliding window"
+            },
+            "isCompleted": false,
+            "taskLevel": "easy"
+        },
+        {
+            "name": "1456. Maximum Number of Vowels in a Substring of Given Length",
+            "taskUrl": "https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Sliding window"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "1004. Max Consecutive Ones III",
+            "taskUrl": "https://leetcode.com/problems/max-consecutive-ones-iii/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Sliding window"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "1493. Longest Subarray of 1's After Deleting One Element",
+            "taskUrl": "https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Sliding window"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "1732. Find the Highest Altitude",
+            "taskUrl": "https://leetcode.com/problems/find-the-highest-altitude/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Prefix sum"
+            },
+            "isCompleted": false,
+            "taskLevel": "easy"
+        },
+        {
+            "name": "724. Find Pivot Index",
+            "taskUrl": "https://leetcode.com/problems/find-pivot-index/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Prefix sum"
+            },
+            "isCompleted": false,
+            "taskLevel": "easy"
+        },
+        {
+            "name": "2215. Find the Difference of Two Arrays",
+            "taskUrl": "https://leetcode.com/problems/find-the-difference-of-two-arrays/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Hash Map / Set"
+            },
+            "isCompleted": false,
+            "taskLevel": "easy"
+        },
+        {
+            "name": "1207. Unique Number of Occurrences",
+            "taskUrl": "https://leetcode.com/problems/unique-number-of-occurrences/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Hash Map / Set"
+            },
+            "isCompleted": false,
+            "taskLevel": "easy"
+        },
+        {
+            "name": "1657. Determine if Two Strings Are Close",
+            "taskUrl": "https://leetcode.com/problems/determine-if-two-strings-are-close/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Hash Map / Set"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "2352. Equal Row and Column Pairs",
+            "taskUrl": "https://leetcode.com/problems/equal-row-and-column-pairs/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Hash Map / Set"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "2390. Removing Stars From a String",
+            "taskUrl": "https://leetcode.com/problems/removing-stars-from-a-string/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Stack"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "735. Asteroid Collision",
+            "taskUrl": "https://leetcode.com/problems/asteroid-collision/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Stack"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "394. Decode String",
+            "taskUrl": "https://leetcode.com/problems/decode-string/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Stack"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "933. Number of Recent Calls",
+            "taskUrl": "https://leetcode.com/problems/number-of-recent-calls/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Queue"
+            },
+            "isCompleted": false,
+            "taskLevel": "easy"
+        },
+        {
+            "name": "649. Dota2 Senate",
+            "taskUrl": "https://leetcode.com/problems/dota2-senate/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Queue"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "2095. Delete the Middle Node of a Linked List",
+            "taskUrl": "https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Linked List"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "328. Odd Even Linked List",
+            "taskUrl": "https://leetcode.com/problems/odd-even-linked-list/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Linked List"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "206. Reverse Linked List",
+            "taskUrl": "https://leetcode.com/problems/reverse-linked-list/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Linked List"
+            },
+            "isCompleted": false,
+            "taskLevel": "easy"
+        },
+        {
+            "name": "2130. Maximum Twin Sum of a Linked List",
+            "taskUrl": "https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Linked List"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "104. Maximum Depth of Binary Tree",
+            "taskUrl": "https://leetcode.com/problems/maximum-depth-of-binary-tree/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Binary Tree - DFS"
+            },
+            "isCompleted": false,
+            "taskLevel": "easy"
+        },
+        {
+            "name": "872. Leaf-Similar Trees",
+            "taskUrl": "https://leetcode.com/problems/leaf-similar-trees/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Binary Tree - DFS"
+            },
+            "isCompleted": false,
+            "taskLevel": "easy"
+        },
+        {
+            "name": "1448. Count Good Nodes in Binary Tree",
+            "taskUrl": "https://leetcode.com/problems/count-good-nodes-in-binary-tree/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Binary Tree - DFS"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "437. Path Sum III",
+            "taskUrl": "https://leetcode.com/problems/path-sum-iii/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Binary Tree - DFS"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "1372. Longest ZigZag Path in a Binary Tree",
+            "taskUrl": "https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Binary Tree - DFS"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "236. Lowest Common Ancestor of a Binary Tree",
+            "taskUrl": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Binary Tree - DFS"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "199. Binary Tree Right Side View",
+            "taskUrl": "https://leetcode.com/problems/binary-tree-right-side-view/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Binary Tree - BFS"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "1161. Maximum Level Sum of a Binary Tree",
+            "taskUrl": "https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Binary Tree - BFS"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "700. Search in a Binary Search Tree",
+            "taskUrl": "https://leetcode.com/problems/search-in-a-binary-search-tree/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Binary Search Tree"
+            },
+            "isCompleted": false,
+            "taskLevel": "easy"
+        },
+        {
+            "name": "450. Delete Node in a BST",
+            "taskUrl": "https://leetcode.com/problems/delete-node-in-a-bst/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Binary Search Tree"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "841. Keys and Rooms",
+            "taskUrl": "https://leetcode.com/problems/keys-and-rooms/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Graphs - DFS"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "547. Number of Provinces",
+            "taskUrl": "https://leetcode.com/problems/number-of-provinces/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Graphs - DFS"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "1466. Reorder Routes to Make All Paths Lead to the City Zero",
+            "taskUrl": "https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Graphs - DFS"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "399. Evaluate Division",
+            "taskUrl": "https://leetcode.com/problems/evaluate-division/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Graphs - DFS"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "1926. Nearest Exit from Entrance in Maze",
+            "taskUrl": "https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Graphs - BFS"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "994. Rotting Oranges",
+            "taskUrl": "https://leetcode.com/problems/rotting-oranges/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Graphs - BFS"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "215. Kth Largest Element in an Array",
+            "taskUrl": "https://leetcode.com/problems/kth-largest-element-in-an-array/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Heap / Priority Queue"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "2336. Smallest Number in Infinite Set",
+            "taskUrl": "https://leetcode.com/problems/smallest-number-in-infinite-set/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Heap / Priority Queue"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "2542. Maximum Subsequence Score",
+            "taskUrl": "https://leetcode.com/problems/maximum-subsequence-score/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Heap / Priority Queue"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "2462. Total Cost to Hire K Workers",
+            "taskUrl": "https://leetcode.com/problems/total-cost-to-hire-k-workers/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Heap / Priority Queue"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "374. Guess Number Higher or Lower",
+            "taskUrl": "https://leetcode.com/problems/guess-number-higher-or-lower/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Binary Search"
+            },
+            "isCompleted": false,
+            "taskLevel": "easy"
+        },
+        {
+            "name": "2300. Successful Pairs of Spells and Potions",
+            "taskUrl": "https://leetcode.com/problems/successful-pairs-of-spells-and-potions/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Binary Search"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "162. Find Peak Element",
+            "taskUrl": "https://leetcode.com/problems/find-peak-element/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Binary Search"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "875. Koko Eating Bananas",
+            "taskUrl": "https://leetcode.com/problems/koko-eating-bananas/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Binary Search"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "17. Letter Combinations of a Phone Number",
+            "taskUrl": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Backtracking"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "216. Combination Sum III",
+            "taskUrl": "https://leetcode.com/problems/combination-sum-iii/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Backtracking"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "1137. N-th Tribonacci Number",
+            "taskUrl": "https://leetcode.com/problems/n-th-tribonacci-number/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "DP - 1D"
+            },
+            "isCompleted": false,
+            "taskLevel": "easy"
+        },
+        {
+            "name": "746. Min Cost Climbing Stairs",
+            "taskUrl": "https://leetcode.com/problems/min-cost-climbing-stairs/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "DP - 1D"
+            },
+            "isCompleted": false,
+            "taskLevel": "easy"
+        },
+        {
+            "name": "198. House Robber",
+            "taskUrl": "https://leetcode.com/problems/house-robber/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "DP - 1D"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "790. Domino and Tromino Tiling",
+            "taskUrl": "https://leetcode.com/problems/domino-and-tromino-tiling/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "DP - 1D"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "62. Unique Paths",
+            "taskUrl": "https://leetcode.com/problems/unique-paths/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "DP - Multidimensional"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "1143. Longest Common Subsequence",
+            "taskUrl": "https://leetcode.com/problems/longest-common-subsequence/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "DP - Multidimensional"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "714. Best Time to Buy and Sell Stock with Transaction Fee",
+            "taskUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "DP - Multidimensional"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "72. Edit Distance",
+            "taskUrl": "https://leetcode.com/problems/edit-distance/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "DP - Multidimensional"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "338. Counting Bits",
+            "taskUrl": "https://leetcode.com/problems/counting-bits/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Bit Manipulation"
+            },
+            "isCompleted": false,
+            "taskLevel": "easy"
+        },
+        {
+            "name": "136. Single Number",
+            "taskUrl": "https://leetcode.com/problems/single-number/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Bit Manipulation"
+            },
+            "isCompleted": false,
+            "taskLevel": "easy"
+        },
+        {
+            "name": "1318. Minimum Flips to Make a OR b Equal to c",
+            "taskUrl": "https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Bit Manipulation"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "208. Implement Trie (Prefix Tree)",
+            "taskUrl": "https://leetcode.com/problems/implement-trie-prefix-tree/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Trie"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "1268. Search Suggestions System",
+            "taskUrl": "https://leetcode.com/problems/search-suggestions-system/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Trie"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "435. Non-overlapping Intervals",
+            "taskUrl": "https://leetcode.com/problems/non-overlapping-intervals/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Intervals"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "452. Minimum Number of Arrows to Burst Balloons",
+            "taskUrl": "https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Intervals"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "739. Daily Temperatures",
+            "taskUrl": "https://leetcode.com/problems/daily-temperatures/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Monotonic Stack"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
+        },
+        {
+            "name": "901. Online Stock Span",
+            "taskUrl": "https://leetcode.com/problems/online-stock-span/description/?envType=study-plan-v2&envId=leetcode-75",
+            "fileTaskUrl": "none",
+            "fileSolUrl": "none",
+            "category": {
+                "name": "Monotonic Stack"
+            },
+            "isCompleted": false,
+            "taskLevel": "medium"
         }
     ]
 }
