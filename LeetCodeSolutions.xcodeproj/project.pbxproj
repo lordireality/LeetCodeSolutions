@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		67C0F7432B5C29F3007F6C71 /* SolutionSources in Resources */ = {isa = PBXBuildFile; fileRef = 67C0F7422B5C29F3007F6C71 /* SolutionSources */; };
+		67C0F7452B5C3053007F6C71 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C0F7442B5C3053007F6C71 /* AboutView.swift */; };
 		67D483CF2B5BCEF400786490 /* LeetCodeSolutionsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D483CE2B5BCEF400786490 /* LeetCodeSolutionsApp.swift */; };
 		67D483D12B5BCEF400786490 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D483D02B5BCEF400786490 /* ContentView.swift */; };
 		67D483D32B5BCEF900786490 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67D483D22B5BCEF900786490 /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		67C0F7422B5C29F3007F6C71 /* SolutionSources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SolutionSources; sourceTree = "<group>"; };
+		67C0F7442B5C3053007F6C71 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		67D483CB2B5BCEF400786490 /* LeetCodeSolutions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCodeSolutions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67D483CE2B5BCEF400786490 /* LeetCodeSolutionsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeSolutionsApp.swift; sourceTree = "<group>"; };
 		67D483D02B5BCEF400786490 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				67D483E92B5BFD7600786490 /* CompletionCircle.swift */,
 				67D483EB2B5C063400786490 /* DificultyLabel.swift */,
 				67D483ED2B5C096F00786490 /* tasks.json */,
+				67C0F7442B5C3053007F6C71 /* AboutView.swift */,
 			);
 			path = LeetCodeSolutions;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				67D483E32B5BE2B000786490 /* TasksView.swift in Sources */,
 				67D483CF2B5BCEF400786490 /* LeetCodeSolutionsApp.swift in Sources */,
 				67D483EA2B5BFD7600786490 /* CompletionCircle.swift in Sources */,
+				67C0F7452B5C3053007F6C71 /* AboutView.swift in Sources */,
 				67D483EC2B5C063400786490 /* DificultyLabel.swift in Sources */,
 				67D483DD2B5BCFD800786490 /* LeetCodeStorage.swift in Sources */,
 				67D483E12B5BE20B00786490 /* TaskView.swift in Sources */,

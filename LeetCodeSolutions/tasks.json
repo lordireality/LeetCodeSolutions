@@ -1,26 +1,15 @@
 {
     "tasks":[
         {
-            "name": "test",
+            "name": "Привет мир",
             "taskUrl": "https://leetcode.com",
             "fileTaskUrl": "test",
             "fileSolUrl": "test",
             "category": {
-                "name": "testcat"
-            },
-            "isCompleted": false,
-            "taskLevel": "easy"
-        },
-        {
-            "name": "test2",
-            "taskUrl": "https://leetcode.com",
-            "fileTaskUrl": "test1",
-            "fileSolUrl": "test2",
-            "category": {
-                "name": "testcat"
+                "name": "Тестовая задача"
             },
             "isCompleted": true,
-            "taskLevel": "hard"
+            "taskLevel": "easy"
         }
     ]
 }

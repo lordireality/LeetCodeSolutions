@@ -8,12 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
-    
+    @State var showingAbout:Bool = true
     var body: some View {
         VStack {
             TasksView()
         }
+        .sheet(isPresented: $showingAbout, onDismiss: dismissAbout){
+            AboutView()
+            .presentationDragIndicator(.visible)
+        }
 
+    }
+    func dismissAbout(){
+        showingAbout = false;
     }
 }
 
