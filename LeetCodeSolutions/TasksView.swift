@@ -34,7 +34,13 @@ struct CategoryView: View{
                 NavigationLink{
                     TaskView(task: lcManager.getTask(taskBase: task))
                 } label: {
-                    Text(task.name)
+                    HStack{
+                        CompletionCircle(isCompleted: task.isCompleted)
+                        Text(task.name)
+                        Spacer()
+                        DificultyLabel(taskLevel: task.taskLevel)
+                    }
+                    
                 }
             }
         }

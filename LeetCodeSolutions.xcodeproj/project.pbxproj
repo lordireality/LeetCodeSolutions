@@ -15,6 +15,10 @@
 		67D483DF2B5BCFEC00786490 /* LeetCodeTaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D483DE2B5BCFEC00786490 /* LeetCodeTaskModel.swift */; };
 		67D483E12B5BE20B00786490 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D483E02B5BE20B00786490 /* TaskView.swift */; };
 		67D483E32B5BE2B000786490 /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D483E22B5BE2AF00786490 /* TasksView.swift */; };
+		67D483E62B5BF49000786490 /* CodeEditorView in Frameworks */ = {isa = PBXBuildFile; productRef = 67D483E52B5BF49000786490 /* CodeEditorView */; };
+		67D483E82B5BF49000786490 /* LanguageSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 67D483E72B5BF49000786490 /* LanguageSupport */; };
+		67D483EA2B5BFD7600786490 /* CompletionCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D483E92B5BFD7600786490 /* CompletionCircle.swift */; };
+		67D483EC2B5C063400786490 /* DificultyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D483EB2B5C063400786490 /* DificultyLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +31,8 @@
 		67D483DE2B5BCFEC00786490 /* LeetCodeTaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeTaskModel.swift; sourceTree = "<group>"; };
 		67D483E02B5BE20B00786490 /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
 		67D483E22B5BE2AF00786490 /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		67D483E92B5BFD7600786490 /* CompletionCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionCircle.swift; sourceTree = "<group>"; };
+		67D483EB2B5C063400786490 /* DificultyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DificultyLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +40,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67D483E82B5BF49000786490 /* LanguageSupport in Frameworks */,
+				67D483E62B5BF49000786490 /* CodeEditorView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +75,8 @@
 				67D483DE2B5BCFEC00786490 /* LeetCodeTaskModel.swift */,
 				67D483E02B5BE20B00786490 /* TaskView.swift */,
 				67D483E22B5BE2AF00786490 /* TasksView.swift */,
+				67D483E92B5BFD7600786490 /* CompletionCircle.swift */,
+				67D483EB2B5C063400786490 /* DificultyLabel.swift */,
 			);
 			path = LeetCodeSolutions;
 			sourceTree = "<group>";
@@ -95,6 +105,10 @@
 			dependencies = (
 			);
 			name = LeetCodeSolutions;
+			packageProductDependencies = (
+				67D483E52B5BF49000786490 /* CodeEditorView */,
+				67D483E72B5BF49000786490 /* LanguageSupport */,
+			);
 			productName = LeetCodeSolutions;
 			productReference = 67D483CB2B5BCEF400786490 /* LeetCodeSolutions.app */;
 			productType = "com.apple.product-type.application";
@@ -123,6 +137,9 @@
 				Base,
 			);
 			mainGroup = 67D483C22B5BCEF400786490;
+			packageReferences = (
+				67D483E42B5BF48F00786490 /* XCRemoteSwiftPackageReference "CodeEditorView" */,
+			);
 			productRefGroup = 67D483CC2B5BCEF400786490 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -152,6 +169,8 @@
 				67D483D12B5BCEF400786490 /* ContentView.swift in Sources */,
 				67D483E32B5BE2B000786490 /* TasksView.swift in Sources */,
 				67D483CF2B5BCEF400786490 /* LeetCodeSolutionsApp.swift in Sources */,
+				67D483EA2B5BFD7600786490 /* CompletionCircle.swift in Sources */,
+				67D483EC2B5C063400786490 /* DificultyLabel.swift in Sources */,
 				67D483DD2B5BCFD800786490 /* LeetCodeStorage.swift in Sources */,
 				67D483E12B5BE20B00786490 /* TaskView.swift in Sources */,
 				67D483DF2B5BCFEC00786490 /* LeetCodeTaskModel.swift in Sources */,
@@ -360,6 +379,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		67D483E42B5BF48F00786490 /* XCRemoteSwiftPackageReference "CodeEditorView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mchakravarty/CodeEditorView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		67D483E52B5BF49000786490 /* CodeEditorView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 67D483E42B5BF48F00786490 /* XCRemoteSwiftPackageReference "CodeEditorView" */;
+			productName = CodeEditorView;
+		};
+		67D483E72B5BF49000786490 /* LanguageSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 67D483E42B5BF48F00786490 /* XCRemoteSwiftPackageReference "CodeEditorView" */;
+			productName = LanguageSupport;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 67D483C32B5BCEF400786490 /* Project object */;
 }
