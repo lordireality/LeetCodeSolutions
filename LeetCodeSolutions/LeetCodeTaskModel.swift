@@ -8,8 +8,8 @@
 import Foundation
 
 ///базовый класс проблемы
-struct LeetCodeTaskBase: Identifiable{
-    let id: UUID
+struct LeetCodeTaskBase: Codable, Identifiable {
+    let id: UUID = .init()
     let name: String
     let taskUrl: String
     let fileTaskUrl: String
@@ -17,8 +17,19 @@ struct LeetCodeTaskBase: Identifiable{
     let category: LeetCodeCategory
     let isCompleted: Bool
     let taskLevel: TaskLevel
-    
+        
+    enum CodingKeys: String, CodingKey {
+        case name
+        case taskUrl
+        case fileTaskUrl
+        case fileSolUrl
+        case category
+        case isCompleted
+        case taskLevel
+    }
+
 }
+
 
 ///подробный класс проблемы
 struct LeetCodeTaskModel{
@@ -29,17 +40,26 @@ struct LeetCodeTaskModel{
     let category: LeetCodeCategory?
     let isCompleted: Bool
     let taskLevel: TaskLevel
-    
-    
 }
 
 ///категория проблемы
-struct LeetCodeCategory: Hashable{
-    let id: UUID
+struct LeetCodeCategory: Codable, Hashable{
+    let id: UUID = .init()
     let name: String
+    enum CodingKeys: String, CodingKey {
+        case name
+    }
 }
 
 ///сложность проблемы
-enum TaskLevel{
-    case easy, medium, hard, unknown
+enum TaskLevel: String, Codable{
+    case easy = "easy"
+    case medium = "medium"
+    case hard = "hard"
+    case unknown = ""
 }
+///костыль для парса джсон
+struct TaskList: Codable {
+    var tasks: [LeetCodeTaskBase]
+}
+

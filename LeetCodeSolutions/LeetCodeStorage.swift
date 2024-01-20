@@ -21,17 +21,26 @@ class LeetCodeStorageManager{
     ///TODO: если проект окажется полезен в будущем - переделать на CoreData
     private func createTasksList() -> [LeetCodeTaskBase]{
         var tasks:[LeetCodeTaskBase] = []
-        var newCat = LeetCodeCategory(id: .init(), name: "TestCat")
-        var newTask = LeetCodeTaskBase(id: .init(), name: "test", taskUrl:"https://letcode.com", fileTaskUrl: "test1", fileSolUrl: "test2", category: newCat, isCompleted: false, taskLevel: .unknown)
         
-        tasks.append(newTask)
+        let jsonString = readStr(resoursePath: "tasks", ext: "json") ?? ""
+        
+        if let jsonData = jsonString.data(using: .utf8) {
+            do {
+                let taskList = try JSONDecoder().decode(TaskList.self, from: jsonData)
+                for task in taskList.tasks {
+                    tasks.append(task)
+                }
+            } catch {
+                return []
+            }
+        }
         return tasks;
     }
     ///Получить подробную модель задачи с чтением проблемы/решения
     public func getTask(taskBase: LeetCodeTaskBase)->LeetCodeTaskModel{
         var taskModel = LeetCodeTaskModel(name: taskBase.name, taskUrl: taskBase.taskUrl, category: taskBase.category, isCompleted: taskBase.isCompleted, taskLevel: taskBase.taskLevel)
-        taskModel.problem = readStr(resoursePath: taskBase.fileTaskUrl, ext: "txt") ?? "not found :("
-        taskModel.solution = readStr(resoursePath: taskBase.fileSolUrl, ext: "txt") ?? "not found :("
+        taskModel.problem = readStr(resoursePath: taskBase.fileTaskUrl, ext: "txt") ?? "Еще не загружено"
+        taskModel.solution = readStr(resoursePath: taskBase.fileSolUrl, ext: "txt") ?? "Еще не загружено"
         return taskModel
     }
     ///Чтение строки из файла по пути с расширением

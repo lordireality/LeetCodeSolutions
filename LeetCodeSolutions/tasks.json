@@ -1,0 +1,26 @@
+{
+    "tasks":[
+        {
+            "name": "test",
+            "taskUrl": "https://leetcode.com",
+            "fileTaskUrl": "test1",
+            "fileSolUrl": "test2",
+            "category": {
+                "name": "testcat"
+            },
+            "isCompleted": false,
+            "taskLevel": "easy"
+        },
+        {
+            "name": "test2",
+            "taskUrl": "https://leetcode.com",
+            "fileTaskUrl": "test1",
+            "fileSolUrl": "test2",
+            "category": {
+                "name": "testcat"
+            },
+            "isCompleted": true,
+            "taskLevel": "hard"
+        }
+    ]
+}
