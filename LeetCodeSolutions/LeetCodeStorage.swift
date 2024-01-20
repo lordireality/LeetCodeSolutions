@@ -11,14 +11,18 @@ class LeetCodeStorageManager{
     ///Массив задачек с литкода, без данных о проблеме/решении
     ///для получения подробного инфо - getTask
     public var tasks:[LeetCodeTaskBase] = []
+    public var tasksGrouped:[String : [LeetCodeTaskBase]] = [:]
     ///Инициализатор менеджера синглтон
     public static let shared = LeetCodeStorageManager.init()
     
     private init(){
-        self.tasks = createTasksList();
+        let tasksList = createTasksList();
+        let list = Dictionary(grouping: tasksList) { $0.category.name }
+        self.tasks = tasksList
+        self.tasksGrouped = list;
+        
     }
-    ///хардкод формирования списка задачек
-    ///TODO: если проект окажется полезен в будущем - переделать на CoreData
+    ///получение из json списка задач
     private func createTasksList() -> [LeetCodeTaskBase]{
         var tasks:[LeetCodeTaskBase] = []
         

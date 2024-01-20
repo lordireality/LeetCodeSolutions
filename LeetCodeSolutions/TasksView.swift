@@ -12,9 +12,10 @@ struct TasksView: View {
     var body: some View {
         NavigationStack{
             List{
-                var list = Dictionary(grouping: lcManager.tasks) { $0.category }
-                ForEach(Array(list.keys), id: \.self){ key in
-                    if let tasks = list[key]{
+                
+                ForEach(lcManager.tasksGrouped.keys.sorted(), id: \.self){ key in
+                    
+                    if let tasks = lcManager.tasksGrouped[key]{
                         CategoryView(taskBase: tasks, category: key, lcManager: lcManager)
                     }
                 }
@@ -26,10 +27,10 @@ struct TasksView: View {
 
 struct CategoryView: View{
     var taskBase: [LeetCodeTaskBase]
-    var category: LeetCodeCategory
+    var category: String
     var lcManager: LeetCodeStorageManager
     var body: some View{
-        Section(header: Text(category.name)) {
+        Section(header: Text(category)) {
             ForEach(taskBase){ task in
                 NavigationLink{
                     TaskView(task: lcManager.getTask(taskBase: task))
