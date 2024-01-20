@@ -3,8 +3,8 @@
         {
             "name": "test",
             "taskUrl": "https://leetcode.com",
-            "fileTaskUrl": "test1",
-            "fileSolUrl": "test2",
+            "fileTaskUrl": "test",
+            "fileSolUrl": "test",
             "category": {
                 "name": "testcat"
             },

@@ -196,5 +196,85 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D865891D-0C7D-44F9-9060-283C75AB9B16"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetCodeSolutions/LeetCodeStorage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "getTask(taskBase:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D865891D-0C7D-44F9-9060-283C75AB9B16 - b5c46f99f5faa625"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LeetCodeSolutions.LeetCodeStorageManager.getTask(taskBase: LeetCodeSolutions.LeetCodeTaskBase) -&gt; LeetCodeSolutions.LeetCodeTaskModel"
+                  moduleName = "LeetCodeSolutions"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/germanzykin/Documents/xcodeCum/LeetCodeSolutions/LeetCodeSolutions/LeetCodeStorage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "494">
+               </Location>
+               <Location
+                  uuid = "D865891D-0C7D-44F9-9060-283C75AB9B16 - b5c46f99f5faa625"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LeetCodeSolutions.LeetCodeStorageManager.getTask(taskBase: LeetCodeSolutions.LeetCodeTaskBase) -&gt; LeetCodeSolutions.LeetCodeTaskModel"
+                  moduleName = "LeetCodeSolutions"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/germanzykin/Documents/xcodeCum/LeetCodeSolutions/LeetCodeSolutions/LeetCodeStorage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "508">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "029F2906-5E8B-4EF6-88EA-0E509A410518"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetCodeSolutions/LeetCodeStorage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "readStr(resoursePath:ext:subdir:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "199BA4FE-A481-4822-990C-1D28A00EB42B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetCodeSolutions/LeetCodeStorage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "readStr(resoursePath:ext:subdir:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

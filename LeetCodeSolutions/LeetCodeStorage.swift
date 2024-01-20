@@ -26,7 +26,7 @@ class LeetCodeStorageManager{
     private func createTasksList() -> [LeetCodeTaskBase]{
         var tasks:[LeetCodeTaskBase] = []
         
-        let jsonString = readStr(resoursePath: "tasks", ext: "json") ?? ""
+        let jsonString = readStr(resoursePath: "tasks", ext: "json", subdir: nil) ?? ""
         
         if let jsonData = jsonString.data(using: .utf8) {
             do {
@@ -43,13 +43,13 @@ class LeetCodeStorageManager{
     ///Получить подробную модель задачи с чтением проблемы/решения
     public func getTask(taskBase: LeetCodeTaskBase)->LeetCodeTaskModel{
         var taskModel = LeetCodeTaskModel(name: taskBase.name, taskUrl: taskBase.taskUrl, category: taskBase.category, isCompleted: taskBase.isCompleted, taskLevel: taskBase.taskLevel)
-        taskModel.problem = readStr(resoursePath: taskBase.fileTaskUrl, ext: "txt") ?? "Еще не загружено"
-        taskModel.solution = readStr(resoursePath: taskBase.fileSolUrl, ext: "txt") ?? "Еще не загружено"
+        taskModel.problem = readStr(resoursePath: taskBase.fileTaskUrl, ext: "txt", subdir: "SolutionSources") ?? "Еще не загружено"
+        taskModel.solution = readStr(resoursePath: taskBase.fileSolUrl, ext: "swift", subdir: "/SolutionSources/") ?? "Еще не загружено"
         return taskModel
     }
     ///Чтение строки из файла по пути с расширением
-    private func readStr(resoursePath : String, ext : String) -> String?{
-        if let fileURL = Bundle.main.url(forResource: resoursePath, withExtension: ext) {
+    private func readStr(resoursePath : String, ext : String, subdir : String?) -> String?{
+        if let fileURL = Bundle.main.url(forResource: resoursePath, withExtension: ext, subdirectory: subdir) {
             do {
                 let contents = try String(contentsOf: fileURL)
                 return contents

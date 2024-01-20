@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67C0F7432B5C29F3007F6C71 /* SolutionSources in Resources */ = {isa = PBXBuildFile; fileRef = 67C0F7422B5C29F3007F6C71 /* SolutionSources */; };
 		67D483CF2B5BCEF400786490 /* LeetCodeSolutionsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D483CE2B5BCEF400786490 /* LeetCodeSolutionsApp.swift */; };
 		67D483D12B5BCEF400786490 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D483D02B5BCEF400786490 /* ContentView.swift */; };
 		67D483D32B5BCEF900786490 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67D483D22B5BCEF900786490 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		67C0F7422B5C29F3007F6C71 /* SolutionSources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SolutionSources; sourceTree = "<group>"; };
 		67D483CB2B5BCEF400786490 /* LeetCodeSolutions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCodeSolutions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67D483CE2B5BCEF400786490 /* LeetCodeSolutionsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeSolutionsApp.swift; sourceTree = "<group>"; };
 		67D483D02B5BCEF400786490 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 		67D483CD2B5BCEF400786490 /* LeetCodeSolutions */ = {
 			isa = PBXGroup;
 			children = (
+				67C0F7422B5C29F3007F6C71 /* SolutionSources */,
 				67D483CE2B5BCEF400786490 /* LeetCodeSolutionsApp.swift */,
 				67D483D02B5BCEF400786490 /* ContentView.swift */,
 				67D483D22B5BCEF900786490 /* Assets.xcassets */,
@@ -159,6 +162,7 @@
 			files = (
 				67D483D62B5BCEF900786490 /* Preview Assets.xcassets in Resources */,
 				67D483D32B5BCEF900786490 /* Assets.xcassets in Resources */,
+				67C0F7432B5C29F3007F6C71 /* SolutionSources in Resources */,
 				67D483EE2B5C096F00786490 /* tasks.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
